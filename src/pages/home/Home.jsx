@@ -1,4 +1,6 @@
 import Layout from "../layout/Layout"
+import Header from "../../components/header/Header"
+import Search from "../../components/search/Search"
 import ContainerWidgetList from "../../components/container-widget-list/ContainerWidgetList"
 import ContainerWidget from "../../components/container-widget/ContainerWidget"
 import "./home.scss"
@@ -7,15 +9,18 @@ const Home = () => {
     return (
         
         <Layout>
-            <div className="home">
+            <div>
+                <Header/>
+                <Search/>
+            </div>
+            <main className="home">
                 <div className="container-widgets">
                     <ContainerWidget/>
                 </div>
                 <div className="container-widgets-list">
                     <ContainerWidgetList/>
                 </div>
-
-            </div>
+            </main>
         </Layout>
        
     )

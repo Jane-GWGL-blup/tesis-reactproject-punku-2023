@@ -5,11 +5,13 @@
     min-height: 100vh;
     background-color: white;
     .top{
-        height: 50px;
+        height: 10%;
         display: flex;
-        align-items: center;
-        justify-content: center;
         background-color: white;
+
+        img{
+            width:80%;
+        }
     }
     .logo{
         font-size:20px;

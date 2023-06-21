@@ -1,16 +1,17 @@
 import Sidebar from "../../components/sidebar/Sidebar"
-import Header from "../../components/header/Header"
-import Search from "../../components/search/Search"
 
 import "./layout.scss"
 
-const Layout =({children}) =>{
+const Layout =({ header, sidebar, children}) =>{
   return(
       <div className="layout">
           <Sidebar/>
           <div className="layoutContainer">
-                <Header />
-                <Search />
+                <div>
+                  {header}
+                  {sidebar}
+                </div>
+                
             <div className="container">
               <main>{children}</main>
             </div>
@@ -20,3 +21,4 @@ const Layout =({children}) =>{
 }
 
 export default Layout
+

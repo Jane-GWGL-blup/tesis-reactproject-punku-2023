@@ -1,5 +1,4 @@
 import './sidebar.scss'
-import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import DashboardIcon from '@mui/icons-material/Dashboard';
 import BusFilledIcon from '@mui/icons-material/DirectionsBusFilled';
 import EventNoteIcon from '@mui/icons-material/EventNote';
@@ -12,7 +11,7 @@ const Sidebar = () => {
     return(
         <div className="sidebar">
             <div className="top">
-                <span className="logo">Logo Punku</span>
+                <img src={process.env.PUBLIC_URL + '/img/punku-logo.png'} alt='Punku'></img>
             </div>
             <hr/>
             <div className="center">
@@ -74,7 +73,7 @@ const Sidebar = () => {
                                     <svg height="18" width="30">
                                         <circle cx="20" cy="10" r="5" stroke="red" stroke-width="2" fill="white" />
                                     </svg>
-                                    <Link to="/reporte/transportistas-reporte" className='link'>
+                                    <Link to="/reporte/transportistas" className='link'>
                                     <span>Transportistas</span>
                                     </Link>
                                 </li>
@@ -83,7 +82,9 @@ const Sidebar = () => {
                     </li>                    
                     <li  className='li-lista'>
                         <PaidIcon/>
+                        <Link to="/comisiones" className='link'>
                         <span>Comisiones</span>
+                        </Link>
                     </li>   
                     <p className="title">USUARIO</p>                 
                      <li className='li-lista'>

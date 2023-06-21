@@ -1,20 +1,20 @@
-import Header from "../../components/header/HeaderSolicitud"
+import Header from "../../components/header/HeaderComision"
 import Search from "../../components/search/Search"
 import Layout from '../layout/Layout'
-import './solicitudes.scss'
+import './comision.scss'
 
-const Solicitudes = () => {
+const Comision = () => {
   return (
     <Layout>
       <div>
           <Header/>
           <Search/>
       </div>
-      <main className="solicitudes">
+      <main className="comision">
         <div></div>
       </main>
     </Layout>
   )
 }
 
-export default Solicitudes
+export default Comision
