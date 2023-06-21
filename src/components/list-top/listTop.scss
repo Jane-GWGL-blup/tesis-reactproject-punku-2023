@@ -1,0 +1,44 @@
+.widget-list{
+    display: flex;
+    justify-content: space-between;
+    flex:1;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid #F7BD3D;
+    border-radius: 10px;
+
+    .left{
+        display: flex;
+        flex-direction: column;
+        
+        .container-title{
+            display: flex;
+            align-items: center;
+
+
+            .boxIcon{
+                fill:green;
+                stroke:green;
+            }
+           /*  svg{
+                margin-right: 2%;
+            }
+            rect{
+                fill:green;
+                stroke:green;
+               
+                // style="fill:blue;stroke:pink;stroke-width:5;fill-opacity:0.1;stroke-opacity:0.9"
+            }
+            } */
+        }
+
+        .title{
+            font-weight: bold;
+            font-size: 14px;
+        }
+        .lis-top{
+            top: 0;
+        }
+    
+    }
+}

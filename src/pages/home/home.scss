@@ -1,0 +1,22 @@
+.home{
+    display: flex;
+
+    .container{
+        display: flex;
+        justify-content: space-between;
+        flex:1;
+        gap:5px;
+        padding: 20px;
+    }
+    .container-widgets{
+
+        flex:6
+    }
+
+.container-widgets-list{
+
+        flex:2
+    } 
+
+
+}

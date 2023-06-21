@@ -1,0 +1,25 @@
+.chart{
+    flex:4;
+    padding: 20px;
+    border: 2px solid #F7BD3D;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 8%;
+
+    .container-title{
+        display: flex;
+        align-items: center;
+
+
+        .boxIcon{
+            fill:green;
+            stroke:green;
+        }
+    }
+
+    .title{
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+}

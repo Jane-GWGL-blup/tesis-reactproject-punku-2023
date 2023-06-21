@@ -1,0 +1,15 @@
+Crear proyecto React - npx create-react-app myproject
+
+
+Material UI react - npm install @mui/material @emotion/react @emotion/styled
+    npm install @mui/material @mui/styled-engine-sc styled-components
+    npm install @mui/icons-material
+
+    optional - npm install @fontsource/roboto
+
+
+Sass (syntactically awesome style sheets) is an extension of CSS with additional features that make it more powerful. The
+    npm install sass
+
+
+npm install @mui/icons-material
