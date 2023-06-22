@@ -32,6 +32,7 @@ function Router () {
                         <Route path='transportistas' element={<TransportistasReporte/>}/>
                     </Route>
                 </Route>
+                <Route exact path="/login" component={Login} />
             </Routes>
         </BrowserRouter>
     )

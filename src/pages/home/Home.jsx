@@ -14,11 +14,13 @@ const Home = () => {
                 <Search/>
             </div>
             <main className="home">
-                <div className="container-widgets">
-                    <ContainerWidget/>
-                </div>
-                <div className="container-widgets-list">
-                    <ContainerWidgetList/>
+                <div className="row">
+                    <div className="container-widgets">
+                        <ContainerWidget/>
+                    </div>
+                    <div className="container-widgets-list">
+                        <ContainerWidgetList/>
+                    </div>
                 </div>
             </main>
         </Layout>

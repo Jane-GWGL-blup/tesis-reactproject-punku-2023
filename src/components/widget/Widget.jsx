@@ -1,6 +1,7 @@
 import SquareIcon from '@mui/icons-material/SquareRounded';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import './widget.scss'
+import ChartUser from '../chart-usuarios/ChartUser';
 
 const data=[ 
 { name: "E", Total: 1200},
@@ -57,7 +58,8 @@ const Widget = ({type}) => {
         <div className='container-title'>
         <span className="title-right">Ultimos meses</span>
         </div>
-          <ResponsiveContainer width="90%" aspect={6 / 1}>
+          <ChartUser></ChartUser>
+          {/*<ResponsiveContainer width="90%" aspect={6 / 1}>
           <LineChart width={330} height={250} data1={data}
             margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
             <CartesianGrid strokeDasharray="3 3" />
@@ -66,7 +68,7 @@ const Widget = ({type}) => {
             <Legend />
             <Line type="monotone" dataKey="Total" stroke="#8884d8" />
           </LineChart>
-          </ResponsiveContainer>
+          </ResponsiveContainer>*/}
       </div>
 
     </div>

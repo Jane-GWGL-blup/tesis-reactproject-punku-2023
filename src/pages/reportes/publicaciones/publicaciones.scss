@@ -1,0 +1,56 @@
+.contenedor{
+    display: flex;
+    .avatar{
+                
+        width: 40px;
+        height: 40px;
+        border: 0.5px solid rgb(153, 153, 153);
+        border-radius: 50%;
+    }
+    .cardheader{
+        background-color: #006328;
+        color: #FFFFFF;
+        text-align: center;
+    }
+    .contenedorTextArea{
+        align-items: center;
+        justify-content: center;
+        .tituloTextArea{
+            background-color: #006328;
+            color: #FFFFFF;
+            border-radius: 10px;
+            text-align: center;
+            margin-right:15%;
+            margin-left:15%;
+            margin-bottom:2%;
+            h4{
+                font-weight: bold;
+                font-size: 100%;
+                padding: 1%;
+            }
+        }
+        .textarea{
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            border-radius: 10px;
+        }
+    }
+
+    .button-ver{
+
+        background-color: #F7BD3D;
+    }
+    .button-ver:hover{
+        background-color: #9c6b00;
+    }
+
+    .button-delete{
+        background-color: #F75E3D
+    }
+
+    .button-delete:hover{
+        background-color: #791600
+    }
+
+}

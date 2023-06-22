@@ -10,7 +10,7 @@ const Comision = () => {
           <Header/>
           <Search/>
       </div>
-      <main className="comision">
+      <main className="contenedor">
         <div></div>
       </main>
     </Layout>

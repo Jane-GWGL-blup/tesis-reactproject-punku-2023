@@ -89,7 +89,9 @@ const Sidebar = () => {
                     <p className="title">USUARIO</p>                 
                      <li className='li-lista'>
                         <LogoutIcon/>
+                        <Link to="/login" className='link'>
                         <span>Cerrar Sesión</span>
+                        </Link>
                     </li> 
                 </ul>
             </div> 

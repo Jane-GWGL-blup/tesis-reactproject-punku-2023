@@ -1,0 +1,23 @@
+.contenedor{
+    display: flex;
+    Button{
+       
+        margin: 1%;
+    }
+    .button-añadir-transp{
+        background-color: #FFB946;
+    }
+    Button:hover{
+        background-color: #b44e09c2;
+    }
+    .table{
+        
+        width: 80vw;
+        background-color: #FFFFFF;
+        color:#000000;
+        font-weight: 600;
+        margin-bottom: 1%;
+    }
+
+
+}

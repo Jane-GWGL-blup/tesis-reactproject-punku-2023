@@ -1,0 +1,45 @@
+.contenedor{
+    display: flex;
+    .contenedor-text-area{
+        align-items: center;
+        justify-content: center;
+        .titulo-text-area{
+            background-color: #FFB946;
+            color: #FFFFFF;
+            border-radius: 10px;
+            text-align: center;
+            margin-right:15%;
+            margin-left:15%;
+            margin-bottom:2%;
+            h4{
+                font-weight: bold;
+                font-size: 100%;
+                padding: 1%;
+            }
+        }
+        .textarea{
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            border-radius: 10px;
+        }
+    }
+    .button-suspender-transportista{
+
+        background-color: #ECE76A;
+    }
+    .button-suspender-tranportista:hover{
+        background-color: #8d8802;
+    }
+
+    .button-delete-transportista{
+        background-color: #F84A00;
+    }
+
+    .button-delete-transportista:hover{
+        background-color: #791600
+    }
+
+ 
+    
+}
