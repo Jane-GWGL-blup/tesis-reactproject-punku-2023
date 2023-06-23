@@ -34,21 +34,20 @@ const columns = [
     renderCell: (params) => (
       <div>
         <Button
-          
+          className="btn-aprobar"
           variant="contained"
           color="primary"
           onClick={() => handleEdit(params.row.id)}
 
         >
-          Editar
+          Aprobar
         </Button>
         <Button
-          
+          className="btn-desaprobar"
           variant="contained"
-          color="error"
           onClick={() => handleDelete(params.row.id)}
         >
-          Eliminar
+          Desaprobar
         </Button>
       </div>
     ),

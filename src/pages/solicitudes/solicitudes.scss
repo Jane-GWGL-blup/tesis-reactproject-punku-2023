@@ -4,4 +4,18 @@
     Button{  
         margin-right: 1%;
     }
+    .btn-aprobar{
+        background-color: #BCF123;
+    }
+    .btn-aprobar:hover{
+        background-color: #12BF03;
+    }
+
+    .btn-desaprobar{
+        background-color: #F84A00;
+    }
+
+    .btn-desaprobar:hover{
+        background-color: #BF0303;
+    }
 }
